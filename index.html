@@ -3,107 +3,181 @@
 <head>
 <meta charset='utf-8'>
 <style>
+* { padding: 0;
+    margin: 0;}
 table, th, tr, td {
 	border: solid 1px black;
 	border-collapse: collapse;
 	padding: 8px;
+	margin: 50px;
 }
+header {
+	border: solid 20px rgb(118, 158, 243);
+	width: 500px;
+	height: 100px;
+	background-color: rgb(255, 164, 164);
+	text-align: center;
+	text-shadow: 3px 3px 7px ivory;
+	margin-top: 10px;
+	margin-left: 400px;
+}
+h2 { color: white;
+     margin: 30px;
+	 }
+nav {
+	padding: 20px;
+	font-weight: bold;
+}
+#menu li{
+	list-style-type: none; 
+	display: inline;
+	
+}
+.menus { margin: 0 30px 0 30px;}
+section { margin-left: 240px;
+float: left;}
+aside {
+	margin-left: 20px;
+	margin-top: 60px;
+	float: left;
+}
+footer { font-style: oblique;
+         font-weight: bold;
+		 width: 600px;
+		 margin-bottom: 20px;}
+li {list-style-type: none;}
+
+
 </style>
 </head>
 <body>
-<h1>21-1학기 시간표</h1>
-<table>
-	<tr>
-		<th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
-	</tr>	
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0교시</b><br><b>08:30~09:20</b></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1교시</b><br><b>09:30~10:20</b></td>
-		<td></td>
-		<td></td>
-		<td rowspan="3">지식서비스창업</td>
-		<td>&nbsp;웹 프로그래밍</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2교시</b><br><b>10:30~11:20</b></td>
-		<td rowspan="2">웹 프로그래밍</td>
-		<td></td>
-		
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3교시</b><br><b>11:30~12:20</b></td>
-		
-		<td rowspan="2">초급생활독일어</td>
-		
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4교시</b><br><b>12:30~13:20</b></td>
-		<td></td>
-		
-		<td rowspan="3">인터넷쇼핑몰의<br>&nbsp;&nbsp;&nbsp;창업과경영</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5교시</b><br><b>13:30~14:20</b></td>
-		<td></td>
-		<td></td>
-		
-		<td></td>
-		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채플&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6교시</b><br><b>14:30~15:20</b></td>
-		<td></td>
-		<td rowspan="2">기초일본어회화</td>
-		
-		<td>대학생활설계와<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비전1</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7교시</b><br><b>15:30~16:20</b></td>
-		<td></td>
-		
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8교시</b><br><b>16:30~17:20</b></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="2">&nbsp;&nbsp;현대사회의<br>&nbsp;&nbsp;&nbsp;패션과문화</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9교시</b><br><b>17:30~18:20</b></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		
-		<td></td>
-	</tr>
-</table>
-<br><a href="form_text2.html">[회원가입]</a>
-<a href="rubato.html">[루바토 펜션 안내]</a>
-<a href="행사안내.html">[행사 안내]</a>
-<a href="야간개장안내.html">[야간 개장 안내]</a>
-<a href="세일안내장.html">[세일 안내장]</a>
-<a href="월간일정표.html">[월간 일정표]</a>
-<a href="쇼핑몰 판매 목록.html">[쇼핑몰 판매 목록]</a>
+<header>
+<h2>태주's 21-1학기 시간표</h2>
+</header>
+<nav>
+	<ul id="menu">
+	<li class="menus"><a href="회원가입.html">회원가입</a></li>
+	<li>|</li>
+	<li class="menus"><a href="rubato.html">루바토 펜션 안내</a></li>
+	<li>|</li>
+	<li class="menus"><a href="행사안내.html">행사 안내</a></li>
+	<li>|</li>
+	<li class="menus"><a href="야간개장안내.html">호서 야간 개장</a></li>
+	<li>|</li>
+	<li class="menus"><a href="세일안내장.html">세일 안내장</a></li>
+	<li>|</li>
+	<li class="menus"><a href="월간일정표.html">월간 일정표</a></li>
+	<li>|</li>
+	<li class="menus"><a href="쇼핑몰 판매 목록.html">쇼핑몰 판매 목록</a></li>
+</ul>
+</nav>
+<section>
+	<table>
+		<tr>
+			<th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+		</tr>	
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0교시</b><br><b>08:30~09:20</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1교시</b><br><b>09:30~10:20</b></td>
+			<td></td>
+			<td></td>
+			<td rowspan="3">지식서비스창업</td>
+			<td>&nbsp;웹 프로그래밍</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2교시</b><br><b>10:30~11:20</b></td>
+			<td rowspan="2">웹 프로그래밍</td>
+			<td></td>
+			
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3교시</b><br><b>11:30~12:20</b></td>
+			
+			<td rowspan="2">초급생활독일어</td>
+			
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4교시</b><br><b>12:30~13:20</b></td>
+			<td></td>
+			
+			<td rowspan="3">인터넷쇼핑몰의<br>&nbsp;&nbsp;&nbsp;창업과경영</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5교시</b><br><b>13:30~14:20</b></td>
+			<td></td>
+			<td></td>
+			
+			<td></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채플&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6교시</b><br><b>14:30~15:20</b></td>
+			<td></td>
+			<td rowspan="2">기초일본어회화</td>
+			
+			<td>대학생활설계와<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비전1</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7교시</b><br><b>15:30~16:20</b></td>
+			<td></td>
+			
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8교시</b><br><b>16:30~17:20</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="2">&nbsp;&nbsp;현대사회의<br>&nbsp;&nbsp;&nbsp;패션과문화</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9교시</b><br><b>17:30~18:20</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+			<td></td>
+		</tr>
+	</table>
+
+</section>
+<aside>
+	<ul>
+		<li>
+			<img src="img/kakaotalk.PNG">
+		</li>
+		<li>
+		  <img src="img/instagram.PNG">
+	  </li>
+	  <li>
+		  <img src="img/facebook.PNG">
+	  </li>
+	</ul>
+</aside>
+<footer>
+	<p>
+		대표 : 박태주  ㅣ  이메일 : taejupark1010@gmail.com 
+	<br>전화번호 : 15xx-15xx  ㅣ  주소 : 서울특별시 강남구 
+	</p>
+</footer>
 </body>
 </html>
 

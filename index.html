@@ -3,184 +3,157 @@
 <head>
 <meta charset='utf-8'>
 <style>
-* { padding: 0;
-    margin: 0;}
-table, th, tr, td {
-	border: solid 1px black;
-	border-collapse: collapse;
-	padding: 8px;
-	margin: 50px;
+	*{
+		padding: 0;
+		margin: 0;
+	}
+.clear {
+	clear:both;
 }
-header {
-	border: solid 20px rgb(118, 158, 243);
-	width: 500px;
+body{
+	font-family: '돋움';
+	background-image: url(img/background-home1.png);
+}
+header{
+	width: 995px;
 	height: 100px;
-	background-color: rgb(255, 164, 164);
-	text-align: center;
-	text-shadow: 3px 3px 7px ivory;
-	margin-top: 10px;
-	margin-left: 400px;
+	margin-top: 0px;
+
 }
-h2 { color: white;
-     margin: 30px;
-	 }
-nav {
-	padding: 20px;
-	font-weight: bold;
-}
-#menu li{
-	list-style-type: none; 
-	display: inline;
-	
-}
-.menus { margin: 0 30px 0 30px;}
-section { margin-left: 240px;
-float: left;}
-aside {
-	margin-left: 20px;
-	margin-top: 60px;
+#logo{
 	float: left;
+	margin-left: 320px;
+	margin-top: 30px;
+
+	}
+#top{
+	float: right;
+	margin: 0px 10px 0 0;
+
 }
-footer { font-style: oblique;
-         font-weight: bold;
-		 width: 600px;
-		 margin-bottom: 20px;}
-li {list-style-type: none;}
+
+li{
+	list-style-type: none;
+}
+nav{
+	width: 995px;
+	height: 50px;
+	margin-top: 10px;
+
+}
+nav li{
+	float: left;
+	margin-left: 5px;
+}
+section{
+	width:1000px;
+	height: 240px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 245px;
+
+}
+
+#second{
+	width:670px;
+	height: 240px;
+	float: left;
+	margin-top: 10px;
+
+	background-color: white;
+}
 
 
+aside {
+	width: 280px;
+	height: 240px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+aside ul{float: right;
+
+	}
+aside li {text-align: center;}
+
+footer{
+	width: 995px;
+	height: 130px;
+	margin-top: 10px;
+
+	border-top: solid 1px #cccccc;
+}
+#page {
+	width: 995px;
+	margin: 0 auto;
+
+	}
+#address {
+	float:left;
+	margin: 30px 0 0 50px;
+}
+#customer{
+	float:left;
+	margin:20px 0 0 180px;
+}
+
+h3{
+	border-left: solid 10px red;
+	margin: 20px 0 0 10px;
+	padding-left: 10px;
+}
+hr {
+	border-style: double;
+}
+.search{
+	margin-left: 38px;}
+.recommend{
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 210px;
+}
+#main{
+	float: left;
+	margin-top: 20px;
+}
+h2{background-color: wheat;}
 </style>
 </head>
 <body>
+	<div id="page">
 <header>
-<h2>태주's 21-1학기 시간표</h2>
-</header>
-<nav>
-	<ul id="menu">
-	<li class="menus"><a href="회원가입.html">회원가입</a></li>
-	<li>|</li>
-	<li class="menus"><a href="rubato.html">루바토 펜션 안내</a></li>
-	<li>|</li>
-	<li class="menus"><a href="행사안내.html">행사 안내</a></li>
-	<li>|</li>
-	<li class="menus"><a href="야간개장안내.html">호서 야간 개장</a></li>
-	<li>|</li>
-	<li class="menus"><a href="세일안내장.html">세일 안내장</a></li>
-	<li>|</li>
-	<li class="menus"><a href="월간일정표.html">월간 일정표</a></li>
-	<li>|</li>
-	<li class="menus"><a href="쇼핑몰 판매 목록.html">쇼핑몰 판매 목록</a></li>
-	<li>ㅣ</li>
-	<li class="menus"><a href="ex_photo-academy.html">포토 아카데미</a>
-	</li>
-</ul>
-</nav>
-<section>
-	<table>
-		<tr>
-			<th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
-		</tr>	
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0교시</b><br><b>08:30~09:20</b></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1교시</b><br><b>09:30~10:20</b></td>
-			<td></td>
-			<td></td>
-			<td rowspan="3">지식서비스창업</td>
-			<td>&nbsp;웹 프로그래밍</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2교시</b><br><b>10:30~11:20</b></td>
-			<td rowspan="2">웹 프로그래밍</td>
-			<td></td>
-			
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3교시</b><br><b>11:30~12:20</b></td>
-			
-			<td rowspan="2">초급생활독일어</td>
-			
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4교시</b><br><b>12:30~13:20</b></td>
-			<td></td>
-			
-			<td rowspan="3">인터넷쇼핑몰의<br>&nbsp;&nbsp;&nbsp;창업과경영</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5교시</b><br><b>13:30~14:20</b></td>
-			<td></td>
-			<td></td>
-			
-			<td></td>
-			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;채플&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6교시</b><br><b>14:30~15:20</b></td>
-			<td></td>
-			<td rowspan="2">기초일본어회화</td>
-			
-			<td>대학생활설계와<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비전1</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7교시</b><br><b>15:30~16:20</b></td>
-			<td></td>
-			
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8교시</b><br><b>16:30~17:20</b></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td rowspan="2">&nbsp;&nbsp;현대사회의<br>&nbsp;&nbsp;&nbsp;패션과문화</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9교시</b><br><b>17:30~18:20</b></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			
-			<td></td>
-		</tr>
-	</table>
+	<div id="logo">
+		<img src="Wherefoody_icon.png">
+	</div>
+	<div id="top">
+		<a href="홈페이지.html">홈페이지로 가기</a>
+		<br>
+		<br>
+		로그인 ㅣ 회원가입 
+	</div>
+	<div class="cler"></div>
 
+
+
+</header>
+
+<div class="clear"></div>
+<section>
+ <img src="img/test2.png" width="500px">
 </section>
-<aside>
-	<ul>
-		<li>
-			<img src="img/kakaotalk.PNG">
-		</li>
-		<li>
-		  <img src="img/instagram.PNG">
-	  </li>
-	  <li>
-		  <img src="img/facebook.PNG">
-	  </li>
-	</ul>
-</aside>
-<footer>
-	<p>
-		대표 : 박태주  ㅣ  이메일 : taejupark1010@gmail.com 
-	<br>전화번호 : 15xx-15xx  ㅣ  주소 : 서울특별시 강남구 
-	</p>
-</footer>
+<div class="clear"></div>
+
+<div class="search">
+<textarea cols="130"></textarea>
+</div>
+<div class="clear"></div>
+<div class="recommend">
+	<h2>오늘의 맛집으로 가기</h2>
+<a href="sushi.html"><img src="img/food2.jpeg"></a><br>
+
+
+</div>
+
 </body>
 </html>
-
